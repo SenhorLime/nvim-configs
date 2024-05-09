@@ -1,5 +1,7 @@
 local set = vim.opt
 
+vim.cmd.syntax('on')
+
 set.number = true
 set.encoding = 'utf8'
 set.shiftwidth = 2

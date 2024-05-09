@@ -24,8 +24,8 @@ require('nvim-tree').setup({
   filters = {
     custom = {
       '^.git$',
-      '.vscode/',
-      '.idea/',
+      '/.vscode',
+      '/.idea',
     },
   }
 })
