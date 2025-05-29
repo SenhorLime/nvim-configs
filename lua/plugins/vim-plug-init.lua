@@ -9,4 +9,16 @@ vim.call('plug#begin')
   Plug ('nvim-tree/nvim-tree.lua')
   Plug ('nvim-tree/nvim-web-devicons')
 
+  -- Plugin para adicionar colunas no editor
+  Plug ('ecthelionvi/NeoColumn.nvim')
+
+  -- Plugin para adicionar statusline
+  Plug ('nvim-lualine/lualine.nvim')
+
+  -- Plugin para adicionar tabs ao editor
+  Plug ('romgrk/barbar.nvim')
+  
+  -- Plugin para adicionar terminal integrado
+  Plug ('akinsho/toggleterm.nvim')
+  
 vim.call('plug#end')
